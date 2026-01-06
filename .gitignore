@@ -9,3 +9,4 @@ documentation/
 
 # Env files
 applications/postgres/.env
+applications/minio/.env
