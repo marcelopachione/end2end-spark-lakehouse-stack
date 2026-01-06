@@ -21,12 +21,12 @@ pip install -r requirements.txt
 ## For install pre-commit
 ---
 
-Step 1:
+Step 1 - Pre-commit init:
 ```
 pre-commit install
 ```
 
-Step 2:
+Step 2 - Pre-commit check:
 ```
 pre-commit run --all-files
 ```

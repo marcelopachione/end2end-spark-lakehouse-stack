@@ -3,3 +3,6 @@ applications/portaneir/portainer_data
 
 # Venv
 .venv
+
+# Documentantion (Should be created!)
+documentation/
