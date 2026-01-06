@@ -1,0 +1,22 @@
+services:
+  postgres_adventureworks:
+    hostname: postgres_adventureworks
+    container_name: postgres_adventureworks
+    image: marcelopachione/postgres_adventureworks 
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - '5435:5432'
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - sparkanos
+  
+volumes:
+  db_data:
+    driver: local
+
+networks:
+  sparkanos:
+    external: true
