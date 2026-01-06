@@ -6,3 +6,6 @@ applications/portaneir/portainer_data
 
 # Documentantion (Should be created!)
 documentation/
+
+# Env files
+applications/postgres/.env
