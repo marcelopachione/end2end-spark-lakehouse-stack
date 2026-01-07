@@ -22,7 +22,7 @@
 
     <property>
         <name>fs.s3a.awsSecretAccessKey</name>
-        <value>mudar@123</value>
+        <value>mudar123</value>
     </property>
 
     <property>
