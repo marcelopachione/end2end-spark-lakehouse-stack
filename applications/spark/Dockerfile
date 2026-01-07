@@ -1,0 +1,1 @@
+FROM wlcamargo/spark-master

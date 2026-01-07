@@ -11,3 +11,4 @@ documentation/
 applications/postgres/.env
 applications/minio/.env
 applications/trino/.env
+applications/spark/.env
