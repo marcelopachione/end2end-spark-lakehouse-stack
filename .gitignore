@@ -10,3 +10,4 @@ documentation/
 # Env files
 applications/postgres/.env
 applications/minio/.env
+applications/trino/.env
