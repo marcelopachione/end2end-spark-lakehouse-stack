@@ -10,8 +10,10 @@ documentation/
 # Env files
 applications/postgres/.env
 applications/minio/.env
+applications/postgres/.env
 applications/trino/.env
 applications/spark/.env
+applications/src/notebooks/.ipynb_checkpoints
 applications/superset/.env
 applications/superset/docker/.env
 applications/airflow/.env   
