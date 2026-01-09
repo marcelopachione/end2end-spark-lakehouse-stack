@@ -17,3 +17,4 @@ applications/src/notebooks/.ipynb_checkpoints
 applications/superset/.env
 applications/superset/docker/.env
 applications/airflow/.env   
+applications/open_metadata/docker-volume
